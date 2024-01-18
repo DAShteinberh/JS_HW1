@@ -1,0 +1,15 @@
+var a = 'кiлометри';
+var b = 65;
+switch (a){
+  case 'кiлометри' :
+    console.log(b + ' км це ' + (b*1000) + ' м'); 
+    break;
+  case 'кiлограми' :
+    console.log(b + ' кг це ' + (b*1000) + ' г'); 
+    break;
+  case 'години' :
+    console.log(b + ' г це ' + (b*60) + ' хв');
+    break;
+  default:
+    console.log('Введiть одну з одиниць вимiрювання: кiлограми, кiлометри або години');
+}
