@@ -1,0 +1,8 @@
+let n = 0;
+for (let m = 0; m <= 100; m++) {
+  if (m%3 != 0){
+    n += m;
+  }
+}
+
+console.log(n);
