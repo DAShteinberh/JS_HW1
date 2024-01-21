@@ -1,0 +1,15 @@
+function pow(x, y) {
+  let result = 1;
+  if(y < 0){
+    for (let i = 0; i < -y; i++) {
+    result = result*(1/x);
+    }
+  }
+  else  {
+    for (let i = 0; i < y; i++) {
+    result *= x;
+    }
+  }
+  return result;
+}
+pow (3,8);
