@@ -1,0 +1,20 @@
+function drawTriangleFor(height,symbol){
+  let result = '';
+  for (let i = 0; i < height; i++){
+    result = result + symbol;
+    console.log(result)
+  }
+}
+drawTriangleFor(6,'@');
+
+
+function drawTriangleWhile(height,symbol){
+  let result = '';
+  let x = 0;
+  while (x<height){
+  x++;
+  result = result + symbol;
+  console.log(result)
+}
+}
+drawTriangleWhile(7,'*');
